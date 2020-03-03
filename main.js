@@ -1,13 +1,14 @@
 let getSel = x => document.querySelector(x);
 
-getSel('.block').onmouseover = function() {
-    this.style.backgroundColor = 'yellow';
-    let id = document.getElementById('text');
-    id.appendChild.nodeValue = 'Хочеш знати який ?';
+getSel('.block1').onclick = function () {
+    this.style.backgroundImage = 'url("' + prompt() + '")';
+    this.style.backgroundSize = 'cover';
 }
-
-
-getSel('.block').onmouseout = function() {
-    this.style.backgroundColor = '';
+getSel('.block2').onclick = function () {
+    this.style.backgroundImage = 'url("' + prompt() + '")';
+    this.style.backgroundSize = 'cover';
 }
-
+getSel('.block3').onclick = function () {
+    this.style.backgroundImage = 'url("' + prompt() + '")';
+    this.style.backgroundSize = 'cover';
+}
