@@ -10,7 +10,7 @@
     margin: 100px auto;
 }
 
-@media(max-width: 320px) {
+@media(max-width: 400px) {
         .block1, .block2, .block3 {
         width: 80px;
         height: 200px;
